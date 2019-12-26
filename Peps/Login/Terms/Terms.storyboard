@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Terms Detail View Controller-->
+        <scene sceneID="Gvd-OP-KnX">
+            <objects>
+                <viewController storyboardIdentifier="TermsDetailViewController" id="y0k-G7-Tbi" customClass="TermsDetailViewController" customModule="MyUmbrella" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="TJf-zo-PR7"/>
+                        <viewControllerLayoutGuide type="bottom" id="TSf-5n-CbP"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Cch-ct-GAY">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Idy-7n-UBF">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="Idy-7n-UBF" secondAttribute="trailing" id="EBD-ZM-P12"/>
+                            <constraint firstItem="TSf-5n-CbP" firstAttribute="top" secondItem="Idy-7n-UBF" secondAttribute="bottom" id="Ig3-4z-TEL"/>
+                            <constraint firstItem="Idy-7n-UBF" firstAttribute="leading" secondItem="Cch-ct-GAY" secondAttribute="leading" id="pFO-81-fSF"/>
+                            <constraint firstItem="Idy-7n-UBF" firstAttribute="top" secondItem="TJf-zo-PR7" secondAttribute="bottom" id="yVK-JP-8j4"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="nJg-p5-Owg"/>
+                    </view>
+                    <connections>
+                        <outlet property="webView" destination="Idy-7n-UBF" id="qpd-Lo-EoC"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JP4-sc-Oge" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="10336.799999999999" y="1658.3208395802101"/>
+        </scene>
+    </scenes>
+</document>
