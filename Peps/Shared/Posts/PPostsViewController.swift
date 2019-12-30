@@ -204,6 +204,7 @@ class PPostsViewController: UIViewController {
     }
 
     func btnEditClick(postDetails: PHomePosts) {
+        
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         let vc = storyboard.instantiateViewController(withIdentifier: PCreatePostViewController.identifier) as! PCreatePostViewController
         vc.postObj = postDetails

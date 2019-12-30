@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BQd-sL-dEq">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BQd-sL-dEq">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -29,7 +29,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="login_BG" translatesAutoresizingMaskIntoConstraints="NO" id="4O0-Rw-MUG">
-                                <rect key="frame" x="0.0" y="0.0" width="414.00000000000023" height="862.00000000000045"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="862"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="transparent_layer" translatesAutoresizingMaskIntoConstraints="NO" id="bwq-iy-Ve9">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="862"/>
@@ -440,7 +440,7 @@
                                 <rect key="frame" x="0.0" y="44" width="414" height="818"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="login_BG" translatesAutoresizingMaskIntoConstraints="NO" id="RK4-SE-vfY">
-                                        <rect key="frame" x="0.0" y="0.0" width="414.00000000000023" height="818.00000000000045"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="818"/>
                                     </imageView>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="transparent_layer" translatesAutoresizingMaskIntoConstraints="NO" id="0d4-EN-W23">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="818"/>
@@ -573,7 +573,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="login_BG" translatesAutoresizingMaskIntoConstraints="NO" id="saR-sH-jbZ">
-                                <rect key="frame" x="0.0" y="0.0" width="414.00000000000023" height="862.00000000000045"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="862"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="transparent_layer" translatesAutoresizingMaskIntoConstraints="NO" id="X5y-Xy-j1g">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="862"/>
@@ -621,7 +621,7 @@
                                                                 </connections>
                                                             </textField>
                                                             <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ojR-2N-Uyd">
-                                                                <rect key="frame" x="223" y="10.5" width="65" height="25"/>
+                                                                <rect key="frame" x="223" y="-2" width="65" height="50"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="width" constant="65" id="tNJ-jL-qPF"/>
                                                                 </constraints>
@@ -644,7 +644,7 @@
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fse-cK-Xsh">
-                                                                <rect key="frame" x="296" y="10.5" width="90" height="25"/>
+                                                                <rect key="frame" x="296" y="-2" width="90" height="50"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="width" constant="90" id="RDG-Ko-0Fr"/>
                                                                 </constraints>
@@ -1272,7 +1272,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="login_BG" translatesAutoresizingMaskIntoConstraints="NO" id="HBb-cj-rwf">
-                                <rect key="frame" x="0.0" y="0.0" width="414.00000000000023" height="862.00000000000045"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="862"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="jxc-8K-lAO">
                                 <rect key="frame" x="87" y="367" width="240" height="128"/>
@@ -1314,6 +1314,6 @@
         <image name="radio_active" width="25" height="25"/>
         <image name="transparent_layer" width="1242" height="2208"/>
         <image name="uncheckbox" width="29" height="29"/>
-        <image name="user_icon" width="33" height="33"/>
+        <image name="user_icon" width="20" height="26"/>
     </resources>
 </document>

@@ -78,6 +78,7 @@
 		5B40B450237A65BA008D8945 /* CenteredButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B40B44F237A65BA008D8945 /* CenteredButton.swift */; };
 		5BB812CC2370F62A007EB609 /* PNotesUserListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB812CB2370F62A007EB609 /* PNotesUserListViewController.swift */; };
 		5BF598A32371E3DA009935B1 /* PNotesFilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF598A22371E3DA009935B1 /* PNotesFilterViewController.swift */; };
+		6714A8AD23B7FD2400E5A693 /* TermsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5572A7238EA3F900989683 /* TermsDetailViewController.swift */; };
 		7413E0AA22C738D800677845 /* PPostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7413E0A922C738D800677845 /* PPostTableViewCell.swift */; };
 		7413E0AC22C74DE700677845 /* PCommentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7413E0AB22C74DE700677845 /* PCommentViewController.swift */; };
 		7477442B2292D5730042BC15 /* DesignableUITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7477442A2292D5730042BC15 /* DesignableUITextField.swift */; };
@@ -771,6 +772,7 @@
 				4C2A237B22A4320400D31ADC /* PComments.swift in Sources */,
 				7498220C229D7A4500E40082 /* PTabBarController.swift in Sources */,
 				4CF95D8F22C512AD00911FAE /* Reachability.swift in Sources */,
+				6714A8AD23B7FD2400E5A693 /* TermsDetailViewController.swift in Sources */,
 				4CF95DB022C6435600911FAE /* PPostCommentViewCell.swift in Sources */,
 				74982220229DA27100E40082 /* PAuthListViewController.swift in Sources */,
 				4CF95DB622C6435600911FAE /* PInterestListViewController.swift in Sources */,

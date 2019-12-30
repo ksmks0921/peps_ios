@@ -307,6 +307,9 @@ class PRegistrationViewController: UIViewController, UINavigationControllerDeleg
         signUpDict.setValue("", forKey: "podcast_account_name")
         signUpDict.setValue(replaced, forKey: "uid")
         signUpDict.setValue("", forKey: "worldwide_user_id")
+        signUpDict.setValue(1, forKey: "email_public")
+        signUpDict.setValue(1, forKey: "age_public")
+        
 
         if editProfile == 0 {
             signUpDict.setValue(emailTextField.text!, forKey: kEmail)
